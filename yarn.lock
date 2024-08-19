@@ -2721,24 +2721,24 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@magic-sdk/commons@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-3.0.0.tgz#6c26d4dec3c92604b06e24494e41aef11d227230"
-  integrity sha512-vNoR7b2r+lRBJTbhCXxO3KCPA6CGsvmqNj8Kbkk1M9qixGOFhNsYTrOzxp5AK8vggIIOrVjvqP9y2ryemkhckg==
+"@magic-sdk/commons@^24.5.0":
+  version "24.5.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/commons/-/commons-24.5.0.tgz#94b82bf433f6978efd6f8f99bc4a5a37a91755fb"
+  integrity sha512-GxHcBskbpvadNeIIC9H/2nLKkxWRiVfTBek7G2dCNwr//9oZUmY/8gAJunAPj2HU3Yl9PVtms07g3YBba9nOUA==
 
-"@magic-sdk/provider@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-7.0.0.tgz#4018ce1c52d0be87fe7ceadfdc093cf168486e22"
-  integrity sha512-CYH2dfJMjfu6PCJFGLAvu6N4K6nFhA4jqny9mBtkancrrMXsCUOJdkSjkPlQZlFJaGvyPjgkOZ9GNDJKSjF5Mw==
+"@magic-sdk/provider@^28.5.0":
+  version "28.5.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/provider/-/provider-28.5.0.tgz#edc86aca804a9f09d20c2ac1ca8e007917ba50de"
+  integrity sha512-at1Tfp7BnnzdSOvpSfHXup3q+JJ8MpB0S7C8BJRQQflVObz5M1i1xDPjF5ZhY0MZT34Mya9jvMChQdWBLI0bkA==
   dependencies:
-    "@magic-sdk/types" "^6.0.0"
+    "@magic-sdk/types" "^24.3.0"
     eventemitter3 "^4.0.4"
     web3-core "1.5.2"
 
-"@magic-sdk/types@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-6.0.0.tgz#5ef6eb0886e954f5ad334290724a8fa5e1d02d14"
-  integrity sha512-DTLs6IRjMdCNer6SjGnsYKJZDQ0NBI4YD3eFe/c1gz+AtBvJMxsktFbefkRstnSMONRZBmAu4iqqaLtzXOOjnQ==
+"@magic-sdk/types@^24.3.0":
+  version "24.3.0"
+  resolved "https://registry.yarnpkg.com/@magic-sdk/types/-/types-24.3.0.tgz#93b0b1c500a215a6f4c0eee9305c3f12ef3b14ec"
+  integrity sha512-Kc5hQEh4GOtNzuzR4oqr2693hGuNFVeHrDg9wJBqWHr0McgTPaYfVNiQG8THBpxaYMIcjAuJRP1HM0O/9nIuag==
 
 "@mapbox/node-pre-gyp@^1.0.0":
   version "1.0.11"
@@ -12630,14 +12630,14 @@ lucide-react@^0.414.0:
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.414.0.tgz#15245174d3ea111c85eae571b0e903c1026ac1fd"
   integrity sha512-Krr/MHg9AWoJc52qx8hyJ64X9++JNfS1wjaJviLM1EP/68VNB7Tv0VMldLCB1aUe6Ka9QxURPhQm/eB6cqOM3A==
 
-magic-sdk@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-7.0.0.tgz#65139b8107a7bceb32016f84cefbef0c7c99b808"
-  integrity sha512-XdeFZEDUkF8EoTGYSh9lrVn1gEBsWifTO+B9l5NQKnbGGjemQUyeNv28cujrzzFhzBvL3MoVHnjtI/nLCZLkhQ==
+magic-sdk@28.5.0:
+  version "28.5.0"
+  resolved "https://registry.yarnpkg.com/magic-sdk/-/magic-sdk-28.5.0.tgz#471e2a2e1a2a04c16a7ead9fe6aba3ae999b6296"
+  integrity sha512-cO2/mpMMzzlsUaCUYvyUFcWIPUcpTVKqiPJ1jLxHtAdwaKC3yi9RiREMzguGWRJb2NpexSJTArkdC8s66UUZlg==
   dependencies:
-    "@magic-sdk/commons" "^3.0.0"
-    "@magic-sdk/provider" "^7.0.0"
-    "@magic-sdk/types" "^6.0.0"
+    "@magic-sdk/commons" "^24.5.0"
+    "@magic-sdk/provider" "^28.5.0"
+    "@magic-sdk/types" "^24.3.0"
     localforage "^1.7.4"
 
 magic-string@^0.25.0, magic-string@^0.25.3, magic-string@^0.25.7:
