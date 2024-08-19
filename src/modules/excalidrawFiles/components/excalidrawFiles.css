@@ -1,0 +1,102 @@
+.background{
+    background-color: red;
+}
+
+
+
+
+.gridFiles{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    grid-auto-rows: 200px;
+}
+
+
+
+.gridProcess{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    grid-template       : "one two" 150px
+                         "three four" 150px
+                         "five six" 150px
+                         "seven eight" 150px
+                         "nine nine"  ;
+                         
+    gap: 12px;
+    
+    
+}
+
+.process1{
+    grid-area: one
+ }
+ 
+ .process2{
+    grid-area: two;
+ }
+ .process3{
+    grid-area: three
+ }
+ 
+ .process4{
+    grid-area: four;
+ }
+ .process5{
+    grid-area: five
+ }
+ 
+ .process6{
+    grid-area: six;
+ }
+ .process7{
+    grid-area: seven
+ }
+ 
+ .process8{
+    grid-area: eight;
+ }
+
+ .process9{
+    grid-area: nine;
+ }
+ @media (min-width: 768px) { 
+    .gridFiles{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,200px);
+    }
+
+    .gridProcess{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+        grid-template-areas: "one two three four"
+                             "five six seven eight"
+                             "nine nine nine nine";
+                             
+        gap: 14px;
+        
+        
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .gridProcess{
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        grid-template-areas: "one two three four nine nine"
+                             "five six seven eight nine nine";
+                             
+        gap: 16px;
+        
+        
+    }
+ }
+
+
+

@@ -1,0 +1,28 @@
+export const Routes = {
+  home: '/',
+  logIn: '/log-in',
+  signUp: '/sign-up',
+  user: {
+    profile: '/profile',
+  },
+  loggedExample: '/loggedExample',
+  admin: {
+    dashboard: '/admin/dashboard',
+  },
+  excalidrawFiles: '/excalidrawFiles',
+  excalidrawFiles2: '/excalidrawFiles2',
+  excalidrawFilesSection: '/excalidrawFiles/section',
+  excalidrawFiles2Section: '/excalidrawFiles2/section',
+  administration: '/administration',
+  administration2: '/administration-2',
+  administration3: '/administration-3',
+  administration4: '/administration-4',
+  administration6: '/administration-6',
+  globalAdmin: '/globalAdmin',
+  globalAdmin2: '/global-admin-2',
+  globalAdmin3: '/global-admin-3',
+  globalAdmin4: '/global-admin-4',
+  canvas: '/canvas',
+  fileReader: '/file-reader',
+  test: '/test',
+} as const
