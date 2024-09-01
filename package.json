@@ -28,7 +28,7 @@
 		"@radix-ui/react-slot": "1.0.2",
 		"@types/mocha": "^10.0.6",
 		"@types/prismjs": "^1.26.4",
-		"@typescript-eslint/eslint-plugin": "^7.17.0",
+		"@typescript-eslint/eslint-plugin": "^8.3.0",
 		"@walletconnect/web3-provider": "^1.8.0",
 		"@web3auth/web3auth": "^1.1.0",
 		"class-variance-authority": "0.7.0",
