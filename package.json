@@ -55,7 +55,7 @@
 		"react-error-boundary": "^4.0.13",
 		"react-moralis": "^1.4.2",
 		"react-phone-number-input": "^3.4.3",
-		"react-router-dom": "^6.4.3",
+		"react-router-dom": "^6.26.2",
 		"react-scripts": "^4.0.3",
 		"react-stickynode": "^4.1.0",
 		"react-time-ago": "^7.2.1",
