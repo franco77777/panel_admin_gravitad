@@ -40,7 +40,7 @@
 		"formik": "^2.2.9",
 		"javascript-time-ago": "^2.5.9",
 		"lucide-react": "^0.414.0",
-		"magic-sdk": "7.0.0",
+		"magic-sdk": "28.17.0",
 		"moralis": "2.22.2",
 		"moralis-v1": "1.13.0",
 		"next-themes": "^0.3.0",
